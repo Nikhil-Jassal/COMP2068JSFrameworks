@@ -27,5 +27,21 @@ prompt.get(['userChoice'], function (err, result) {
     computerSelection = 'ROCK';
   }
 
+  //show what each player chose
+  console.log('You chose:', userSelection);
+  console.log('Computer chose:', computerSelection);
+
+  //determine the winner using simple if-else conditions
+  if (userSelection === computerSelection) {
+    console.log("It's a tie!");
+  } else if (
+    (userSelection === 'ROCK' && computerSelection === 'SCISSORS') ||
+    (userSelection === 'PAPER' && computerSelection === 'ROCK') ||
+    (userSelection === 'SCISSORS' && computerSelection === 'PAPER')
+  ) {
+    console.log('You win!');
+  } else {
+    console.log('Computer wins!');
+  }
 
 });
