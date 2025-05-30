@@ -17,7 +17,15 @@ prompt.get(['userChoice'], function (err, result) {
   //generate a random number between 0 and 1
   const randomNumber = Math.random();
   let computerSelection = '';
-
+  
+  //decide computer's choice based on the random number
+  if (randomNumber <= 0.34) {
+    computerSelection = 'PAPER';
+  } else if (randomNumber <= 0.67) {
+    computerSelection = 'SCISSORS';
+  } else {
+    computerSelection = 'ROCK';
+  }
 
 
 });
