@@ -27,6 +27,7 @@ A stunning personal portfolio website built with Node.js, Express, and Handlebar
 2. ⚙️ Install dependencies
 ```bash
 npm install
+npm start
 ```
 
 3. 🌐 Open in browser
