@@ -1,0 +1,15 @@
+{
+  "name": "assignment01",
+  "version": "1.0.0",
+  "description": "This is Assignment 1 of COMP2068.",
+  "main": "app.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nikhil Jassal",
+  "license": "ISC",
+  "dependencies": {
+    "express": "5.1.0"
+  }
+}
